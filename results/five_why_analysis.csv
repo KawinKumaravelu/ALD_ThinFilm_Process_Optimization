@@ -1,0 +1,6 @@
+Why_Level,Question,Finding
+1,Why did the product fail?,GPC fell below the lower specification limit.
+2,Why did GPC fall?,The effective TMA precursor dose decreased.
+3,Why did the TMA precursor dose decrease?,The simulated TMA pulse delivery was reduced during Lot 17.
+4,Why was the TMA pulse delivery reduced?,A precursor delivery / valve timing deviation is identified as the simulated process mechanism.
+5,What is the underlying process-control issue?,Insufficient monitoring and control of precursor pulse delivery can allow a TMA dosing excursion to affect GPC.

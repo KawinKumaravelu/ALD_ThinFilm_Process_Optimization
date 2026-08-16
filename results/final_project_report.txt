@@ -1,0 +1,40 @@
+ALD THIN-FILM PROCESS OPTIMIZATION
+FINAL ENGINEERING PROJECT SUMMARY
+===========================================================================
+
+1. PROJECT OBJECTIVE
+Develop a physics-informed ALD process model and use DOE, statistical analysis, film characterization, process optimization, SPC, RCA, FMEA and corrective action to establish a qualified process window.
+
+2. PROCESS
+Material    : Al2O3
+Precursor   : TMA
+Reactant    : H2O
+
+3. DOE
+Experiments : 243
+
+4. OPTIMIZED PROCESS
+Temperature         : 200.0000 °C
+Pressure            : 1.0000 Torr
+TMA Pulse           : 1.0000 s
+H2O Pulse           : 1.0000 s
+Purge               : 5.0000 s
+GPC                 : 0.1000 nm/cycle
+Thickness           : 10.0000 nm
+
+5. CORRECTIVE ACTION
+Primary action: Improved TMA precursor pulse control.
+Secondary action: Validated purge-time and process-control limits.
+GPC variation reduction: 55%.
+Yield improved from 99.80% to 100.00%.
+
+6. ROOT CAUSE
+Primary suspected root cause: TMA precursor delivery / pulse timing deviation.
+Process effect: Reduced TMA dose caused a reduction in GPC.
+
+7. REQUALIFICATION
+
+8. FINAL PROCESS STATUS
+PROCESS QUALIFIED
+
+NOTE: All production, characterization, qualification and improvement results are simulation/model-based and should not be represented as experimental manufacturing data.

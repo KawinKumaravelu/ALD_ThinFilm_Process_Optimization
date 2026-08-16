@@ -1,0 +1,6 @@
+Category,Potential_Cause,Evidence,Likelihood
+Equipment,Precursor valve timing or delivery instability,TMA pulse decreased during excursion,High
+Process,Reduced effective precursor dose,TMA pulse reduction accompanied GPC reduction,High
+Control,Insufficient real-time precursor delivery monitoring,Excursion was detected through downstream GPC monitoring,Medium
+Material,Precursor depletion or delivery instability,Not directly simulated,Low / Unconfirmed
+Recipe,Incorrect TMA pulse recipe value,No recipe change was simulated,Low / Unconfirmed

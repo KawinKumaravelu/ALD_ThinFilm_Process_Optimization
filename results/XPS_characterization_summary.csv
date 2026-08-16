@@ -1,0 +1,9 @@
+Parameter,Value,Unit
+Al 2p Binding Energy,74.00020882316348,eV
+O 1s Binding Energy,530.999320000854,eV
+C 1s Binding Energy,284.98411548503407,eV
+Al Atomic %,33.62451906064837,%
+O Atomic %,59.7942641826387,%
+C Atomic %,6.581216756712936,%
+O/Al Ratio,1.7782935147648684,ratio
+Reference O/Al Ratio,1.5,ratio

@@ -1,0 +1,63 @@
+Category,Parameter,Value,Unit,Source_File
+Project,Material,Al2O3,,ALD model
+Project,Precursor,TMA,,ALD model
+Project,Reactant,H2O,,ALD model
+Project,Process Type,Atomic Layer Deposition,,ALD model
+DOE,Number of Experiments,243,experiments,DOE_results.csv
+DOE,Minimum GPC,0.0228541224490695,nm/cycle,DOE_results.csv
+DOE,Maximum GPC,0.12495,nm/cycle,DOE_results.csv
+DOE,Minimum Thickness,2.285412244906957,nm,DOE_results.csv
+DOE,Maximum Thickness,12.495000000000005,nm,DOE_results.csv
+Film Quality,Minimum Uniformity,1.0,%,DOE_film_quality_results.csv
+Film Quality,Maximum Uniformity,3.3999999999999995,%,DOE_film_quality_results.csv
+Film Quality,Minimum Stress,-10.0,MPa,DOE_film_quality_results.csv
+Film Quality,Maximum Stress,110.0,MPa,DOE_film_quality_results.csv
+Film Quality,Minimum Density,2.825,g/cm3,DOE_film_quality_results.csv
+Film Quality,Maximum Density,3.0,g/cm3,DOE_film_quality_results.csv
+Film Quality,Minimum Roughness,0.2,nm RMS,DOE_film_quality_results.csv
+Film Quality,Maximum Roughness,0.44,nm RMS,DOE_film_quality_results.csv
+Optimization,Optimized Temperature,200,°C,optimum_ALD_process.csv
+Optimization,Optimized Pressure,1.0,Torr,optimum_ALD_process.csv
+Optimization,Optimized TMA Pulse,1.0,s,optimum_ALD_process.csv
+Optimization,Optimized H2O Pulse,1.0,s,optimum_ALD_process.csv
+Optimization,Optimized Purge,5.0,s,optimum_ALD_process.csv
+Optimization,Optimized GPC,0.1,nm/cycle,optimum_ALD_process.csv
+Optimization,Optimized Thickness,10.0,nm,optimum_ALD_process.csv
+Optimization,Optimized Stress,50.0,MPa,optimum_ALD_process.csv
+Optimization,Optimized Density,3.0,g/cm3,optimum_ALD_process.csv
+Optimization,Optimized Roughness,0.2,nm RMS,optimum_ALD_process.csv
+Optimization,Optimized Defect Density,5.0,defects/cm2,optimum_ALD_process.csv
+Optimization,Optimized Throughput,300.0,cycles/hour,optimum_ALD_process.csv
+Optimization,Optimization Score,0.8881668946648427,score,optimum_ALD_process.csv
+Production,Production Measurements,1500,measurements,production_lot_data.csv
+Production,Production Thickness Mean,10.016996372567863,nm,production_lot_data.csv
+Production,Production GPC Mean,0.10037557580551706,nm/cycle,production_lot_data.csv
+Production,Production Uniformity Mean,1.0226659874790676,%,production_lot_data.csv
+Production,Production Stress Mean,50.20172581364804,MPa,production_lot_data.csv
+Production,Production Density Mean,3.000827580291659,g/cm3,production_lot_data.csv
+Production,Production Roughness Mean,0.20016582209490957,nm RMS,production_lot_data.csv
+Production,Production Defect Density Mean,4.982713603417403,defects/cm2,production_lot_data.csv
+SPC,Film_Thickness_nm Mean,10.016996372567863,,SPC_summary.csv
+SPC,GPC_nm_per_cycle Mean,0.100375575805517,,SPC_summary.csv
+SPC,Thickness_Uniformity_1sigma_% Mean,1.0226659874790676,,SPC_summary.csv
+SPC,Defect_Density_per_cm2 Mean,4.982713603417403,,SPC_summary.csv
+Capability,Film Thickness Cp,2.267217798777197,,process_capability_summary.csv
+Capability,Film Thickness Cpk,2.19014884197618,,process_capability_summary.csv
+Capability,GPC Cp,0.9347431436125844,,process_capability_summary.csv
+Capability,GPC Cpk,0.8645297617898141,,process_capability_summary.csv
+Capability,Thickness Uniformity Cp,3.606127628485377,,process_capability_summary.csv
+Capability,Thickness Uniformity Cpk,3.524391184810208,,process_capability_summary.csv
+Capability,Defect Density Cp,5.701111176864907,,process_capability_summary.csv
+Capability,Defect Density Cpk,2.840700421555977,,process_capability_summary.csv
+Yield,Yield_%,100.0,%,parameter_yield_summary.csv
+RCA,Primary Root Cause,TMA precursor delivery / pulse timing deviation,,root_cause_summary.csv
+RCA,Primary Process Effect,Reduced TMA dose caused GPC reduction,,root_cause_summary.csv
+RCA,Detection Method,SPC monitoring of GPC,,root_cause_summary.csv
+FMEA,Highest RPN,192,,FMEA_risk_priority.csv
+FMEA,Highest Risk Failure Mode,Insufficient purge time,,FMEA_risk_priority.csv
+Corrective Action,GPC Variation Reduction,55.0,%,corrective_action_summary.csv
+Corrective Action,Yield Before,99.8,%,corrective_action_summary.csv
+Corrective Action,Yield After,100.0,%,corrective_action_summary.csv
+Control Plan,Number of Control Points,15,controls,ALD_process_control_plan.csv
+Control Plan,Critical Control,TMA Pulse,,ALD_process_control_plan.csv
+Control Plan,Primary Product Response,GPC / Film Thickness,,ALD_process_control_plan.csv

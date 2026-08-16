@@ -1,0 +1,5 @@
+Parameter,Reference_Value,Fitted_Value,Unit
+Film Thickness,10.0,8.906180483460547,nm
+Film Density,3.0,2.9821899507026783,g/cm3
+Surface Roughness,0.2,0.19769116207594556,nm RMS
+Log Scale RMSE,,0.31598002558051574,-

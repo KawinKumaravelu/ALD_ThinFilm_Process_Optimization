@@ -1,0 +1,19 @@
+Metric,Value
+Total Measurements,1500
+Qualified Measurements,1500
+Rejected Measurements,0
+Qualification Yield (%),100.0
+Thickness Mean (nm),10.010835752312989
+Thickness Std (nm),0.05776178547687551
+Thickness Cp,2.8854140378570947
+Thickness Cpk,2.8228827741878133
+GPC Mean (nm/cycle),0.10010578633342994
+GPC Std (nm/cycle),0.0005233935901341861
+GPC Cp,3.184346728891675
+GPC Cpk,3.116974655927861
+Uniformity Mean (%),1.0034723735471203
+Uniformity Cpk,7.479956020277248
+Defect Density Mean,5.0019468343089475
+Defect Density Cpk,19.289032318610335
+Minimum Cpk,2.8228827741878133
+Qualification Status,PROCESS QUALIFIED

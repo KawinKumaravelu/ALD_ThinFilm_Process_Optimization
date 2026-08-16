@@ -1,0 +1,17 @@
+Parameter,Value
+Excursion_Lot,17.0
+TMA_Pulse_Shift_s,-0.08
+GPC_Shift_Factor,0.9
+Baseline_GPC_Mean,0.10027948851344345
+Excursion_GPC_Mean,0.09284589654808671
+GPC_LSL,0.095
+GPC_USL,0.105
+SPC_LCL,0.09511187107588265
+SPC_UCL,0.10544710595100426
+Total_GPC_Failures,50.0
+Excursion_GPC_Failures,50.0
+Normal_GPC_Failures,0.0
+Total_SPC_Violations,50.0
+Excursion_SPC_Violations,50.0
+Normal_SPC_Violations,0.0
+Excursion_Detection_Rate_percent,100.0

@@ -1,0 +1,6 @@
+Priority,Check,Purpose
+1,Verify TMA valve timing,Confirm actual precursor pulse duration
+2,Verify TMA delivery pressure / flow,Confirm sufficient precursor delivery
+3,Check precursor source condition,Identify depletion or supply instability
+4,Review recipe and equipment logs,Identify control or recipe changes
+5,Run verification deposition,Confirm recovery of GPC after correction

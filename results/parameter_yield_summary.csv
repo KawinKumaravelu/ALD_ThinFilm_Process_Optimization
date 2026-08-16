@@ -1,0 +1,8 @@
+Parameter,Good_Count,Defective_Count,Yield_%
+Film Thickness,1500,0,100.0
+GPC,1497,3,99.8
+Thickness Uniformity,1500,0,100.0
+Film Stress,1500,0,100.0
+Film Density,1500,0,100.0
+Surface Roughness,1500,0,100.0
+Defect Density,1500,0,100.0

@@ -1,0 +1,9 @@
+Item,Result
+Problem,GPC below specification in Lot 17
+Affected Lot,Lot 17
+Affected Measurements,50
+Primary Affected Parameter,GPC
+Suspected Root Cause,TMA precursor delivery / pulse timing deviation
+Process Effect,Reduced precursor dose and reduced GPC
+Detection Method,SPC GPC monitoring
+Detection Rate,100%

@@ -1,0 +1,16 @@
+Process_Step,Failure_Mode,Potential_Effect,Potential_Cause,Current_Control,Severity,Occurrence,Detection,Recommended_Action,RPN,Risk_Level,Risk_Rank
+Purge,Insufficient purge time,"Gas-phase reaction, contamination and non-ideal ALD growth",Incorrect purge recipe or valve timing,Recipe verification and film characterization,8,4,6,Establish minimum validated purge time,192,MEDIUM,1
+TMA precursor pulse,TMA pulse duration too short,Reduced precursor dose and low GPC,Valve timing or precursor delivery instability,Recipe control and GPC monitoring,8,5,4,Monitor TMA pulse delivery and verify valve timing,160,MEDIUM,2
+Precursor supply,Precursor depletion,Reduced GPC and production yield,Low precursor inventory,Source-level monitoring,8,3,6,Implement precursor inventory monitoring and replacement limits,144,MEDIUM,3
+H2O reactant pulse,H2O pulse insufficient,Incomplete surface reaction and reduced film quality,Reactant delivery instability,Recipe control and film characterization,7,4,5,Monitor H2O pulse delivery and verify reactant supply,140,MEDIUM,4
+Film characterization,High defect density,Reduced manufacturing yield,"Particles, contamination or process instability",Defect inspection,9,3,4,Monitor defect density and perform contamination control,108,MEDIUM,5
+Deposition,Film non-uniformity,Wafer-to-wafer or within-wafer performance variation,"Pressure, temperature or precursor distribution variation",Uniformity measurement,8,3,4,Monitor wafer uniformity and optimize process window,96,LOW,6
+TMA precursor pulse,TMA pulse duration too long,Excess deposition and increased GPC,Valve timing or recipe error,Recipe verification and GPC monitoring,7,3,4,Add pulse-duration verification and alarm limits,84,LOW,7
+Chamber pressure,Pressure above target,Changed precursor transport and film non-uniformity,Throttle valve or pumping issue,Pressure monitoring,7,4,3,Implement pressure alarm limits,84,LOW,8
+Chamber pressure,Pressure below target,Precursor transport and reaction variation,Pressure-control or pumping instability,Pressure monitoring,7,4,3,Monitor pressure trend and verify pressure-control system,84,LOW,9
+H2O reactant pulse,H2O pulse excessive,Process time increase and possible process instability,Recipe or valve timing deviation,Recipe control,5,3,5,Implement pulse timing verification,75,LOW,10
+Temperature control,Temperature below target,Reduced reaction rate and GPC variation,Heater or temperature-control instability,Temperature monitoring,8,3,3,Use temperature alarms and calibration checks,72,LOW,11
+Film characterization,High surface roughness,Degraded interface and device performance,Non-ideal growth conditions,Surface roughness characterization,6,3,4,Track roughness during process qualification,72,LOW,12
+Temperature control,Temperature above target,GPC variation and possible precursor decomposition,Heater-control deviation,Temperature monitoring,8,3,3,Implement high-temperature alarm and heater verification,72,LOW,13
+Deposition,Film thickness outside specification,Device/process performance degradation,Combined process parameter variation,Thickness measurement and SPC,9,3,2,Maintain SPC monitoring and process capability analysis,54,LOW,14
+Purge,Excessive purge time,Reduced process throughput,Over-conservative process recipe,Cycle-time monitoring,5,5,2,Optimize purge time while maintaining film quality,50,LOW,15
